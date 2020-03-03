@@ -1,0 +1,17 @@
+{
+  "name": "mapping",
+  "version": "1.0.0",
+  "description": "Uses object-object mapping to combine similar fields in large objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "object-mapper": "^6.2.0"
+  }
+}
