@@ -1,0 +1,8 @@
+icd9v1_code  icd9v1_desc  icd10cm_code  icd10cm_desc  chapter  section  section_desc  warning
+    T45.1X5A  Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter  19  T36-T50  Poisoning by, adverse effect of and underdosing of drugs, medicaments and biological substances
+    T45.1X5D  Adverse effect of antineoplastic and immunosuppressive drugs, subsequent encounter  19  T36-T50  Poisoning by, adverse effect of and underdosing of drugs, medicaments and biological substances
+    T45.515A  Adverse effect of anticoagulants, initial encounter  19  T36-T50  Poisoning by, adverse effect of and underdosing of drugs, medicaments and biological substances
+    T81.31XA  Disruption of external operation (surgical) wound, not elsewhere classified, initial encounter  19  T80-T88  Complications of surgical and medical care, not elsewhere classified
+038.9  Unspecified septicemia  A419  Sepsis, unspecified organism  1  A30-A49  Other bacterial diseases  
+041.49  Other and unspecified Escherichia coli [E. coli]  B9620  Unspecified Escherichia coli [E. coli] as the cause of diseases classified elsewhere  1  B95-B97  Bacterial and viral infectious agents  This ICD-9 code matches multiple ICD-10 codes
+593.9  Unspecified disorder of kidney and ureter  N289  Disorder of kidney and ureter, unspecified  14  N25-N29  Other disorders of kidney and ureter

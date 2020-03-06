@@ -1,0 +1,13 @@
+code	source
+R01.1	http://hl7.org/fhir/sid/icd-10-cm
+038.9	http://hl7.org/fhir/sid/icd-9-cm
+Z95.2	http://hl7.org/fhir/sid/icd-10-cm
+041.49	http://hl7.org/fhir/sid/icd-9-cm
+593.9	http://hl7.org/fhir/sid/icd-9-cm
+J41.0	http://hl7.org/fhir/sid/icd-10-cm
+J42	http://hl7.org/fhir/sid/icd-10-cm
+T45.1X5A	http://hl7.org/fhir/sid/icd-10-cm
+T45.1X5D	http://hl7.org/fhir/sid/icd-10-cm
+729.89	http://hl7.org/fhir/sid/icd-9-cm
+T45.515A	http://hl7.org/fhir/sid/icd-10-cm
+T81.31XA	http://hl7.org/fhir/sid/icd-10-cm
