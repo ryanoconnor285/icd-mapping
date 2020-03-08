@@ -147,7 +147,7 @@
         "icd9v1_desc": "Diabetes with renal manifestations, type II or unspecified type, not stated as uncontrolled",
         "icd10cm_code": "E1129",
         "icd10cm_desc": "Type 2 diabetes mellitus with other diabetic kidney complication",
-        "chapter": 4,
+        "chapter": "4",
         "section": "E08-E13",
         "section_desc": "Diabetes mellitus",
         "parent_code": "E112",
@@ -400,7 +400,7 @@
         "icd9v1_desc": "Anemia, unspecified",
         "icd10cm_code": "D649",
         "icd10cm_desc": "Anemia, unspecified",
-        "chapter": 3,
+        "chapter": "3",
         "section": "D60-D64",
         "section_desc": "Aplastic and other anemias and other bone marrow failure syndromes",
         "parent_code": "D64",
@@ -411,7 +411,7 @@
         "icd9v1_desc": "Other and unspecified coagulation defects",
         "icd10cm_code": "D688",
         "icd10cm_desc": "Other specified coagulation defects",
-        "chapter": 3,
+        "chapter": "3",
         "section": "D65-D69",
         "section_desc": "Coagulation defects, purpura and other hemorrhagic conditions",
         "parent_code": "D68",
@@ -422,7 +422,7 @@
         "icd9v1_desc": "Thrombocytopenia, unspecified",
         "icd10cm_code": "D696",
         "icd10cm_desc": "Thrombocytopenia, unspecified",
-        "chapter": 3,
+        "chapter": "3",
         "section": "D65-D69",
         "section_desc": "Coagulation defects, purpura and other hemorrhagic conditions",
         "parent_code": "D69",
@@ -1448,8 +1448,7 @@
         "chapter": 9,
         "section": "I80-I89",
         "section_desc": "Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified",
-        "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default",
-        "parent_code": "I8244"
+        "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default"
     },
     {
         "icd9v1_code": "45351",
@@ -1525,7 +1524,7 @@
         "chapter": 9,
         "section": "I95-I99",
         "section_desc": "Other and unspecified disorders of the circulatory system",
-        "parent_code": "I95",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -1690,7 +1689,7 @@
         "chapter": 10,
         "section": "J40-J47",
         "section_desc": "Chronic lower respiratory diseases",
-        "parent_code": "J44",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -1745,7 +1744,7 @@
         "chapter": 10,
         "section": "J60-J70",
         "section_desc": "Lung diseases due to external agents",
-        "parent_code": "J69",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -1976,7 +1975,7 @@
         "chapter": 11,
         "section": "K55-K64",
         "section_desc": "Other diseases of intestines",
-        "parent_code": "K58",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2031,7 +2030,7 @@
         "chapter": 11,
         "section": "K80-K87",
         "section_desc": "Disorders of gallbladder, biliary tract and pancreas",
-        "parent_code": "K802",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2042,7 +2041,7 @@
         "chapter": 11,
         "section": "K90-K95",
         "section_desc": "Other diseases of the digestive system",
-        "parent_code": "K92",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2303,10 +2302,10 @@
         "icd9v1_desc": "Unspecified disorder of skin and subcutaneous tissue",
         "icd10cm_code": "L989",
         "icd10cm_desc": "Disorder of the skin and subcutaneous tissue, unspecified",
-        "chapter": 12,
-        "section": "L80-L99",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L98",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2369,10 +2368,10 @@
         "icd9v1_desc": "Osteoarthrosis, unspecified whether generalized or localized, pelvic region and thigh",
         "icd10cm_code": "M169",
         "icd10cm_desc": "Osteoarthritis of hip, unspecified",
-        "chapter": 13,
-        "section": "M15-M19",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M16",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2600,10 +2599,10 @@
         "icd9v1_desc": "Thoracic or lumbosacral neuritis or radiculitis, unspecified",
         "icd10cm_code": "M5414",
         "icd10cm_desc": "Radiculopathy, thoracic region",
-        "chapter": 13,
-        "section": "M50-M54",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M541",
+        "parent_code": "",
         "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default"
     },
     {
@@ -2655,10 +2654,10 @@
         "icd9v1_desc": "Pain in limb",
         "icd10cm_code": "M79609",
         "icd10cm_desc": "Pain in unspecified limb",
-        "chapter": 13,
-        "section": "M70-M79",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M7960",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -2765,8 +2764,8 @@
         "icd9v1_desc": "Syncope and collapse",
         "icd10cm_code": "R55",
         "icd10cm_desc": "Syncope and collapse",
-        "chapter": 18,
-        "section": "R50-R69",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
         "parent_code": "",
         "warning": ""
@@ -3106,10 +3105,10 @@
         "icd9v1_desc": "Chest pain, unspecified",
         "icd10cm_code": "R079",
         "icd10cm_desc": "Chest pain, unspecified",
-        "chapter": 18,
-        "section": "R00-R09",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R07",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3139,10 +3138,10 @@
         "icd9v1_desc": "Other symptoms involving respiratory system and chest",
         "icd10cm_code": "R0689",
         "icd10cm_desc": "Other abnormalities of breathing",
-        "chapter": 18,
-        "section": "R00-R09",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R068",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3183,10 +3182,10 @@
         "icd9v1_desc": "Dysphagia, unspecified",
         "icd10cm_code": "R130",
         "icd10cm_desc": "Aphagia",
-        "chapter": 18,
-        "section": "R10-R19",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R13",
+        "parent_code": "",
         "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default"
     },
     {
@@ -3194,10 +3193,10 @@
         "icd9v1_desc": "Flatulence, eructation, and gas pain",
         "icd10cm_code": "R140",
         "icd10cm_desc": "Abdominal distension (gaseous)",
-        "chapter": 18,
-        "section": "R10-R19",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R14",
+        "parent_code": "",
         "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default"
     },
     {
@@ -3414,10 +3413,10 @@
         "icd9v1_desc": "Abnormal coagulation profile",
         "icd10cm_code": "R791",
         "icd10cm_desc": "Abnormal coagulation profile",
-        "chapter": 18,
-        "section": "R70-R79",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R79",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3438,7 +3437,7 @@
         "icd10cm_desc": "Elevated urine levels of drugs, medicaments and biological substances",
         "chapter": 18,
         "section": "R80-R82",
-        "section_desc": "Abnormal findings on examination of urine, without diagnosis",
+        "section_desc": "",
         "parent_code": "R82",
         "warning": "This ICD-9 code matches multiple ICD-10 codes, the first options was chosen by default"
     },
@@ -3447,10 +3446,10 @@
         "icd9v1_desc": "Nonspecific abnormal findings in stool contents",
         "icd10cm_code": "R195",
         "icd10cm_desc": "Other fecal abnormalities",
-        "chapter": 18,
-        "section": "R10-R19",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R19",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3471,7 +3470,7 @@
         "icd10cm_desc": "Other nonspecific abnormal finding of lung field",
         "chapter": 18,
         "section": "R90-R94",
-        "section_desc": "Abnormal findings on diagnostic imaging and in function studies, without diagnosis",
+        "section_desc": "",
         "parent_code": "R91",
         "warning": ""
     },
@@ -3546,10 +3545,10 @@
         "icd9v1_desc": "Sepsis",
         "icd10cm_code": "A419",
         "icd10cm_desc": "Sepsis, unspecified organism",
-        "chapter": 1,
-        "section": "A30-A49",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "A41",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3621,7 +3620,7 @@
         "icd10cm_desc": "Sepsis due to Escherichia coli [E. coli]",
         "chapter": 1,
         "section": "A30-A49",
-        "section_desc": "Other bacterial diseases",
+        "section_desc": "",
         "parent_code": "A415",
         "warning": ""
     },
@@ -3632,7 +3631,7 @@
         "icd10cm_desc": "Other specified sepsis",
         "chapter": 1,
         "section": "A30-A49",
-        "section_desc": "Other bacterial diseases",
+        "section_desc": "",
         "parent_code": "A418",
         "warning": ""
     },
@@ -3720,7 +3719,7 @@
         "icd10cm_desc": "Candidiasis of vulva and vagina",
         "chapter": 1,
         "section": "B35-B49",
-        "section_desc": "Mycoses",
+        "section_desc": "",
         "parent_code": "B37",
         "warning": ""
     },
@@ -3728,11 +3727,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "B3749",
-        "icd10cm_desc": "Other urogenital candidiasis",
-        "chapter": 1,
-        "section": "B35-B49",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "B374",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -3742,7 +3741,7 @@
         "icd10cm_desc": "Candidiasis, unspecified",
         "chapter": 1,
         "section": "B35-B49",
-        "section_desc": "Mycoses",
+        "section_desc": "",
         "parent_code": "B37",
         "warning": ""
     },
@@ -3753,7 +3752,7 @@
         "icd10cm_desc": "Enterococcus as the cause of diseases classified elsewhere",
         "chapter": 1,
         "section": "B95-B97",
-        "section_desc": "Bacterial and viral infectious agents",
+        "section_desc": "",
         "parent_code": "B95",
         "warning": ""
     },
@@ -3764,7 +3763,7 @@
         "icd10cm_desc": "Methicillin susceptible Staphylococcus aureus infection as the cause of diseases classified elsewhere",
         "chapter": 1,
         "section": "B95-B97",
-        "section_desc": "Bacterial and viral infectious agents",
+        "section_desc": "",
         "parent_code": "B956",
         "warning": ""
     },
@@ -3775,7 +3774,7 @@
         "icd10cm_desc": "Methicillin resistant Staphylococcus aureus infection as the cause of diseases classified elsewhere",
         "chapter": 1,
         "section": "B95-B97",
-        "section_desc": "Bacterial and viral infectious agents",
+        "section_desc": "",
         "parent_code": "B956",
         "warning": ""
     },
@@ -3874,7 +3873,7 @@
         "icd10cm_desc": "Malignant neoplasm of unspecified part of unspecified bronchus or lung",
         "chapter": 2,
         "section": "C30-C39",
-        "section_desc": "Malignant neoplasms of respiratory and intrathoracic organs",
+        "section_desc": "",
         "parent_code": "C349",
         "warning": ""
     },
@@ -3885,7 +3884,7 @@
         "icd10cm_desc": "Malignant neoplasm of unspecified site of right female breast",
         "chapter": 2,
         "section": "C50",
-        "section_desc": "Malignant neoplasms of breast",
+        "section_desc": "",
         "parent_code": "C5091",
         "warning": ""
     },
@@ -3948,11 +3947,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "C772",
-        "icd10cm_desc": "Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes",
-        "chapter": 2,
-        "section": "C76-C80",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "C77",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4025,11 +4024,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "C801",
-        "icd10cm_desc": "Malignant (primary) neoplasm, unspecified",
-        "chapter": 2,
-        "section": "C76-C80",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "C80",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4072,7 +4071,7 @@
         "icd10cm_desc": "Benign neoplasm of ascending colon",
         "chapter": 2,
         "section": "D10-D36",
-        "section_desc": "Benign neoplasms, except benign neuroendocrine tumors",
+        "section_desc": "",
         "parent_code": "D12",
         "warning": ""
     },
@@ -4105,7 +4104,7 @@
         "icd10cm_desc": "Benign neoplasm of sigmoid colon",
         "chapter": 2,
         "section": "D10-D36",
-        "section_desc": "Benign neoplasms, except benign neuroendocrine tumors",
+        "section_desc": "",
         "parent_code": "D12",
         "warning": ""
     },
@@ -4138,7 +4137,7 @@
         "icd10cm_desc": "Melanocytic nevi, unspecified",
         "chapter": 2,
         "section": "D10-D36",
-        "section_desc": "Benign neoplasms, except benign neuroendocrine tumors",
+        "section_desc": "",
         "parent_code": "D22",
         "warning": ""
     },
@@ -4333,11 +4332,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "D631",
-        "icd10cm_desc": "Anemia in chronic kidney disease",
-        "chapter": 3,
-        "section": "D60-D64",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "D63",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4391,7 +4390,7 @@
         "icd10cm_desc": "Hemorrhagic disorder due to extrinsic circulating anticoagulants",
         "chapter": 3,
         "section": "D65-D69",
-        "section_desc": "Coagulation defects, purpura and other hemorrhagic conditions",
+        "section_desc": "",
         "parent_code": "D683",
         "warning": ""
     },
@@ -4413,7 +4412,7 @@
         "icd10cm_desc": "Other thrombophilia",
         "chapter": 3,
         "section": "D65-D69",
-        "section_desc": "Coagulation defects, purpura and other hemorrhagic conditions",
+        "section_desc": "",
         "parent_code": "D686",
         "warning": ""
     },
@@ -4531,11 +4530,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E034",
-        "icd10cm_desc": "Atrophy of thyroid (acquired)",
-        "chapter": 4,
-        "section": "E00-E07",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E03",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4578,7 +4577,7 @@
         "icd10cm_desc": "Nontoxic multinodular goiter",
         "chapter": 4,
         "section": "E00-E07",
-        "section_desc": "Disorders of thyroid gland",
+        "section_desc": "",
         "parent_code": "E04",
         "warning": ""
     },
@@ -4622,7 +4621,7 @@
         "icd10cm_desc": "Type 1 diabetes mellitus without complications",
         "chapter": 4,
         "section": "E08-E13",
-        "section_desc": "",
+        "section_desc": "Diabetes mellitus",
         "parent_code": "E10",
         "warning": ""
     },
@@ -4795,11 +4794,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E11628",
-        "icd10cm_desc": "Type 2 diabetes mellitus with other skin complications",
-        "chapter": 4,
-        "section": "E08-E13",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E1162",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4850,11 +4849,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E119",
-        "icd10cm_desc": "Type 2 diabetes mellitus without complications",
-        "chapter": 4,
-        "section": "E08-E13",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E11",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4872,11 +4871,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E213",
-        "icd10cm_desc": "Hyperparathyroidism, unspecified",
-        "chapter": 4,
-        "section": "E20-E35",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E21",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -4952,7 +4951,7 @@
         "icd10cm_desc": "Unspecified protein-calorie malnutrition",
         "chapter": 4,
         "section": "E40-E46",
-        "section_desc": "Malnutrition",
+        "section_desc": "",
         "parent_code": "",
         "warning": ""
     },
@@ -4974,7 +4973,7 @@
         "icd10cm_desc": "Vitamin D deficiency, unspecified",
         "chapter": 4,
         "section": "E50-E64",
-        "section_desc": "Other nutritional deficiencies",
+        "section_desc": "",
         "parent_code": "E55",
         "warning": ""
     },
@@ -5029,7 +5028,7 @@
         "icd10cm_desc": "Overweight",
         "chapter": 4,
         "section": "E65-E68",
-        "section_desc": "",
+        "section_desc": "Overweight, obesity and other hyperalimentation",
         "parent_code": "E66",
         "warning": ""
     },
@@ -5106,11 +5105,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E785",
-        "icd10cm_desc": "Hyperlipidemia, unspecified",
-        "chapter": 4,
-        "section": "E70-E88",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E78",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -5161,11 +5160,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "E8351",
-        "icd10cm_desc": "Hypocalcemia",
-        "chapter": 4,
-        "section": "E70-E88",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "E835",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -5436,11 +5435,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "F1120",
-        "icd10cm_desc": "Opioid dependence, uncomplicated",
-        "chapter": 5,
-        "section": "F10-F19",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "F112",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -5568,11 +5567,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "F332",
-        "icd10cm_desc": "Major depressive disorder, recurrent severe without psychotic features",
-        "chapter": 5,
-        "section": "F30-F39",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "F33",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -6155,7 +6154,7 @@
         "chapter": 8,
         "section": "H90-H94",
         "section_desc": "Other disorders of ear",
-        "parent_code": "H90",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -8206,7 +8205,7 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "J42",
-        "icd10cm_desc": "Unspecified chronic bronchitis",
+        "icd10cm_desc": "",
         "chapter": 10,
         "section": "J40-J47",
         "section_desc": "Chronic lower respiratory diseases",
@@ -8829,22 +8828,22 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "K31811",
-        "icd10cm_desc": "Angiodysplasia of stomach and duodenum with bleeding",
-        "chapter": 11,
-        "section": "K20-K31",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "K3181",
+        "parent_code": "",
         "warning": ""
     },
     {
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "K31819",
-        "icd10cm_desc": "Angiodysplasia of stomach and duodenum without bleeding",
-        "chapter": 11,
-        "section": "K20-K31",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "K3181",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9294,11 +9293,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "K660",
-        "icd10cm_desc": "Peritoneal adhesions (postprocedural) (postinfection)",
-        "chapter": 11,
-        "section": "K65-K68",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "K66",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9517,11 +9516,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "K921",
-        "icd10cm_desc": "Melena",
-        "chapter": 11,
-        "section": "K90-K95",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "K92",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9737,11 +9736,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "L814",
-        "icd10cm_desc": "Other melanin hyperpigmentation",
-        "chapter": 12,
-        "section": "L80-L99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L81",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9759,11 +9758,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "L821",
-        "icd10cm_desc": "Other seborrheic keratosis",
-        "chapter": 12,
-        "section": "L80-L99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L82",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9825,22 +9824,22 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "L97521",
-        "icd10cm_desc": "Non-pressure chronic ulcer of other part of left foot limited to breakdown of skin",
-        "chapter": 12,
-        "section": "L80-L99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L9752",
+        "parent_code": "",
         "warning": ""
     },
     {
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "L97529",
-        "icd10cm_desc": "Non-pressure chronic ulcer of other part of left foot with unspecified severity",
-        "chapter": 12,
-        "section": "L80-L99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L9752",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -9902,11 +9901,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "L988",
-        "icd10cm_desc": "Other specified disorders of the skin and subcutaneous tissue",
-        "chapter": 12,
-        "section": "L80-L99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "L98",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10122,11 +10121,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M19071",
-        "icd10cm_desc": "Primary osteoarthritis, right ankle and foot",
-        "chapter": 13,
-        "section": "M15-M19",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M1907",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10144,11 +10143,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M19079",
-        "icd10cm_desc": "Primary osteoarthritis, unspecified ankle and foot",
-        "chapter": 13,
-        "section": "M15-M19",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M1907",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10254,11 +10253,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M25521",
-        "icd10cm_desc": "Pain in right elbow",
-        "chapter": 13,
-        "section": "M20-M25",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M2552",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10375,11 +10374,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M2578",
-        "icd10cm_desc": "Osteophyte, vertebrae",
-        "chapter": 13,
-        "section": "M20-M25",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M257",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10569,11 +10568,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M5126",
-        "icd10cm_desc": "Other intervertebral disc displacement, lumbar region",
-        "chapter": 13,
-        "section": "M50-M54",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M512",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -10880,11 +10879,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "M79604",
-        "icd10cm_desc": "Pain in right leg",
-        "chapter": 13,
-        "section": "M70-M79",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "M7960",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -11122,9 +11121,9 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "N10",
-        "icd10cm_desc": "Acute tubulo-interstitial nephritis",
-        "chapter": 14,
-        "section": "N10-N16",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
         "parent_code": "",
         "warning": ""
@@ -11199,11 +11198,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "N139",
-        "icd10cm_desc": "Obstructive and reflux uropathy, unspecified",
-        "chapter": 14,
-        "section": "N10-N16",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "N13",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -11397,11 +11396,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "N3001",
-        "icd10cm_desc": "Acute cystitis with hematuria",
-        "chapter": 14,
-        "section": "N30-N39",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "N300",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -11547,7 +11546,7 @@
         "chapter": 14,
         "section": "N80-N98",
         "section_desc": "Noninflammatory disorders of female genital tract",
-        "parent_code": "N89",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -11748,11 +11747,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "R0609",
-        "icd10cm_desc": "Other forms of dyspnea",
-        "chapter": 18,
-        "section": "R00-R09",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R060",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -11836,11 +11835,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "R0789",
-        "icd10cm_desc": "Other chest pain",
-        "chapter": 18,
-        "section": "R00-R09",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R078",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -12767,11 +12766,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "R531",
-        "icd10cm_desc": "Weakness",
-        "chapter": 18,
-        "section": "R50-R69",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R53",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -13368,11 +13367,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "R930",
-        "icd10cm_desc": "Abnormal findings on diagnostic imaging of skull and head, not elsewhere classified",
-        "chapter": 18,
-        "section": "R90-R94",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "R93",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -13536,11 +13535,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "S0083XA",
-        "icd10cm_desc": "Contusion of other part of head, initial encounter",
-        "chapter": 19,
-        "section": "S00-S09",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "S0083",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -13715,11 +13714,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "T45515A",
-        "icd10cm_desc": "Adverse effect of anticoagulants, initial encounter",
-        "chapter": 19,
-        "section": "T36-T50",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "T45515",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -14921,11 +14920,11 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z136",
-        "icd10cm_desc": "Encounter for screening for cardiovascular disorders",
-        "chapter": 21,
-        "section": "Z00-Z13",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z13",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -15786,22 +15785,22 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z823",
-        "icd10cm_desc": "Family history of stroke",
-        "chapter": 21,
-        "section": "Z77-Z99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z82",
+        "parent_code": "",
         "warning": ""
     },
     {
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z8249",
-        "icd10cm_desc": "Family history of ischemic heart disease and other diseases of the circulatory system",
-        "chapter": 21,
-        "section": "Z77-Z99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z824",
+        "parent_code": "",
         "warning": ""
     },
     {
@@ -15852,33 +15851,33 @@
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z853",
-        "icd10cm_desc": "Personal history of malignant neoplasm of breast",
-        "chapter": 21,
-        "section": "Z77-Z99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z85",
+        "parent_code": "",
         "warning": ""
     },
     {
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z8542",
-        "icd10cm_desc": "Personal history of malignant neoplasm of other parts of uterus",
-        "chapter": 21,
-        "section": "Z77-Z99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z854",
+        "parent_code": "",
         "warning": ""
     },
     {
         "icd9v1_code": "",
         "icd9v1_desc": "",
         "icd10cm_code": "Z8546",
-        "icd10cm_desc": "Personal history of malignant neoplasm of prostate",
-        "chapter": 21,
-        "section": "Z77-Z99",
+        "icd10cm_desc": "",
+        "chapter": "",
+        "section": "",
         "section_desc": "",
-        "parent_code": "Z854",
+        "parent_code": "",
         "warning": ""
     },
     {

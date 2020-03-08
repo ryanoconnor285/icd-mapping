@@ -1,8 +1,8 @@
 const fs = require('fs')
-const conditions = require('./conditions.json')
+const conditions = require('./conditions1.json')
 
 
-const columnDelimiter = '  '
+const columnDelimiter = '\t'
 const lineDelimiter = '\n'
 
 

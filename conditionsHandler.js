@@ -34,6 +34,7 @@ fs.readFile("./input.tsv", "utf8", (error, data) => {
           "chapter": "",
           "section": "",
           "section_desc": "",
+          "parent_code": "",
           "warning": ""
         })
     }
@@ -48,6 +49,7 @@ fs.readFile("./input.tsv", "utf8", (error, data) => {
           "chapter": "",
           "section": "",
           "section_desc": "",
+          "parent_code": "",
           "warning": ""
         })
     }

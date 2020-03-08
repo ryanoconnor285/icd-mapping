@@ -13,30 +13,19 @@ const writeToJson = (conditions) => {
   })
 }
 
-const icd10Lookup = async () => {
-  const requests = await conditions.map((condition, index) => {
-    if (condition.icd10cm_code === "") return
-    return axios
-      .get(`https://icd.codes/api?f=icd10cm_code&code=` + condition.icd10cm_code)
-      .then(res => {
-        if (res.data.results.chapter) {
-          conditions[index].chapter = res.data.results.chapter
-        }
-
-        if (res.data.results.section) {
-          conditions[index].section = res.data.results.section
-        }
-
-        if (res.data.results.desc_long) {
-          conditions[index].desc_long = res.data.results.desc_long
-        }
-      })
-      .catch(err => console.error(err))
-  })
-  // Promise.all waits until all jobs are resolved
-  Promise.all(requests)
-    .then(responses => {
-      writeToJson(conditions)
-    });
+// Want to use async/await? Add the `async` keyword to your outer function/method.
+const icd10Lookup = async (condition, index) => {
+  if (condition.icd10cm_code === "") return
+  try {
+    const response = await axios.get(`https://icd.codes/api?f=icd10cm_code&code=` + condition.icd10cm_code);
+    conditions[index].icd10cm_desc = response.data.results.desc_long
+    conditions[index].parent_code = response.data.results.parent_code
+    conditions[index].section = response.data.results.section
+    conditions[index].chapter = response.data.results.chapter
+    writeToJson(conditions)
+  } catch (error) {
+    console.error(error);
+  }
 }
-icd10Lookup()
+
+conditions.map((condition, index) => icd10Lookup(condition, index))

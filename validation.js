@@ -1,8 +1,8 @@
 
-const conditions = require('./conditions.json')
+const conditions = require('./conditions1.json')
 
 const missingInfo = conditions.filter(condition => {
-      return condition.section === "" || condition.section_desc === "" || condition.chapter === ""
+      return condition.section_desc === ""
     })
 console.log(missingInfo)
 console.log(missingInfo.length)
