@@ -1,20 +1,17 @@
 const fs = require('fs')
 const d3 = require('d3')
 
-// Write conditions to conditions.json.
-const writeToJson = (conditions) => {
-  fs.writeFile("./conditions.json", JSON.stringify(conditions, null, 4), (err) => {
-    if (err) {
-      console.error(err)
-      return
-    }
-    console.log("Condtions written to conditions.json")
-  })
-}
+const writeToJson = require('./utils/file-handling-utils/write-json')
+const directories = require('./config/directories')
+
+
+
+const inputFile = "./src/input/input.tsv"
+const outputFile = "./src/conditions-data/conditions.test.json"
 
 // Get Conditions from tsv named input.tsv in root directory.  
 // ICD naming convention for both ICD 9 and 10 have a decimal after the third character but the API does not use this decimal. 
-fs.readFile("./input.tsv", "utf8", (error, data) => {
+fs.readFile(inputFile, "utf8", (error, data) => {
 
   if (error) {
     console.error(error)
@@ -54,8 +51,6 @@ fs.readFile("./input.tsv", "utf8", (error, data) => {
         })
     }
   })
-  console.log("Parsed input.tsv")
-  writeToJson(conditions)
+  console.log("Parsed", inputFile)
+  writeToJson(conditions, outputFile)
 })
-
-module.exports = writeToJson
