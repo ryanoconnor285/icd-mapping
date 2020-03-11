@@ -2,6 +2,7 @@ const conditions = require('./src/conditions-data/conditions.test.json')
 const writeToJson = require('./utils/file-handling-utils/write-json')
 const convert9To10 = require('./convert9to10')
 const icd10Lookup = require('./icd10Lookup')
+const sectionLookup = require('./sectionLookup')
 
 async function f() {
   console.log('Mapping Conditions, this will take a minute.')
